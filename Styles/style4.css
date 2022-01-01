@@ -1,0 +1,121 @@
+body{
+    background-image: url(/Imagenes/peru.jpeg);
+    background-repeat:no-repeat;
+    background-size: 100%;
+    background-attachment:fixed;
+    text-align: center;
+}
+
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+#principal{
+    background-color: azure;
+    width: 75%;
+    margin: 1px auto;
+    
+}
+
+#contenedor,article,nav{
+    display: flex;
+    flex-direction: row;
+}
+
+main,.contenido{
+    flex: 4;
+}
+
+aside,img,a{
+    flex: 1;
+}
+
+article{
+    border: 2px black solid;
+    padding: 5px, 10px, 5px, 10px;
+    margin: 15px;
+    padding: 10px;
+}
+
+#imagen{
+    width: 240px;
+}
+
+.imgGareca{
+    width: 280px;
+    height: 500px;
+}
+
+aside{
+    margin: 15px ;
+    border: 2px black solid;
+    padding: 10px;
+    flex: 1.5;
+}
+
+.Gareca{
+    font-size: 25px;
+    color:red;
+    font-family: cursive;
+}
+
+li{
+
+    color: black;
+    
+}
+
+tr{
+    color: white;
+    display: table-row;
+    vertical-align: inherit;
+    background-color: #069;
+    border: solid 3px black;
+    padding: 0%;
+}
+th{
+    padding: 0%;
+    display: table-cell;
+    vertical-align: inherit;
+    font-weight: bold;
+    text-align: center;
+}
+.Partidos{
+    color: black;
+    background-color: azure;
+}
+table{
+    border-collapse:collapse;
+    border: none;
+}
+.Banderita{
+    width: 20;
+    height: 13;
+}
+.Listas{
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+a{
+    border: solid 1px black;
+    padding: 10px 0px;
+    color: black;
+}
+a:hover{
+    background-color: rgb(18, 219, 219);
+    text-decoration:none;
+}
+a:active{
+    border-right: rgb(3, 61, 61)  solid;
+    border-bottom: rgb(3, 61, 61) solid;
+    border-top: rgb(127, 241, 241);
+    border-left: rgb(127, 241, 241);
+    font-size: 19px;
+    color: black;
+}
+#menu{
+    margin: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(8, 129, 129);
+}
